@@ -1,0 +1,109 @@
+body{
+    font-family: "Space Grotesk", sans-serif;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(to right, rgb(22, 112, 139), rgb(94, 94, 94));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 15vh;
+}
+
+/*Questions*/
+.containerQuestions{
+    width: 500px;
+    height: auto;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(184, 184, 184);
+    border-radius: 10px;
+}
+.questionNumber{
+    color: white;
+}
+
+.question{
+    font-size: 18px;
+}
+
+.possibleAnswers{
+    margin-left: 25px;
+    align-items: start;
+}
+
+.possibleAnswers p{
+    width: 450px;
+    padding: 4px;
+    border-radius: 10px;
+
+}.possibleAnswers p:hover{
+    background-color: rgb(233, 233, 233);
+    cursor: pointer;
+}
+
+/*Check Counter*/
+.containerCounter{
+    margin-top: 50px;
+    margin-left: 30%;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.qCheckItem{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    border-color: white;
+}
+
+/*Next Button*/
+
+.nextButton{
+    font-family: "Space Grotesk", sans-serif;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 5px rgb(63, 63, 63);
+}
+
+.nextButton:hover{
+    cursor: pointer;
+    background-color: rgba(106, 219, 106, 0.767);
+    color: white;
+}
+
+/*Restart Button*/
+
+.restartButton{
+    font-family: "Space Grotesk", sans-serif;
+    margin-top: 20px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 5px rgb(63, 63, 63);
+}
+
+.restartButton:hover{
+    cursor: pointer;
+    background-color: rgba(106, 219, 106, 0.767);
+    color: white;
+}
