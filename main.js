@@ -214,6 +214,7 @@ const nextQuestion = (qNumber) =>{
                 <p class="wrongAnswer">E) Matter that only exists in the Sun</p>
                                     `
         giveFunctionality()
+        nextButton.textContent = "Finish Quiz"
         break;
 
         default: 
